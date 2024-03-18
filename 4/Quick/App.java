@@ -16,14 +16,14 @@ public class App {
             if (org[j] < pivot) {
                 i++;
                 
-                // Troca org[i] e org[j]
+                
                 char temp = org[i];
                 org[i] = org[j];
                 org[j] = temp;
             }
         }
         
-        // Troca org[i+1] e org[high] (ou seja, o pivô)
+
         char temp = org[i + 1];
         org[i + 1] = org[high];
         org[high] = temp;

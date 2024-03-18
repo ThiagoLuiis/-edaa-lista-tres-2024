@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Solicitar ao usuário que insira a string
+
         System.out.print("Digite uma string: ");
         String string = scanner.nextLine();
         char[] chars = string.toCharArray();
