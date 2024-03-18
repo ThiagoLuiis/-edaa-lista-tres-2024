@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class OrdenacaoNomes {
+public class Main {
     public static void selectionSort(String[] org) {
         int n = org.length;
         
